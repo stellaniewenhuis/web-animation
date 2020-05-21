@@ -9,13 +9,20 @@ svg {
     stroke-miterlimit: 10;
 }
 
+.st0 {
+    stroke: #2565B3;
+}
+
+.st0:hover {
+    stroke: #000000;
+}
+
 .st1 {
     fill: #2565B3;
 }
 
 .st1:hover {
     fill: #000000;
-
 }
 
 .st2 {
@@ -30,16 +37,17 @@ svg {
     fill: #000000;
 }
 
-
-div {
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+.base {
     margin-left: 30px;
     margin-top: 5px;
 }
 
+.float {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
 
 @keyframes floating {
     from { transform: translate(0,  0px); }
@@ -48,29 +56,45 @@ div {
 }
 
 
-img {
-    width:1em;
-    margin-top:1em;
-    margin-left:1em;
+#rotate_button {
+    border-color:blue;
+}
+
+#float_button {
+    border-color:red;
+}
+
+.rotate {
+    transform: rotate(-90deg);
 }
 
 
-
-
-
-
-
-
-
-/*div:hover {*/
-/*
-  animation-name: shake;
-  animation: shake .5s;
+.letter:hover {
+    fill:red;
 }
-*/
 
-/*@keyframes shake {*/
-/*
+.st2-highlight {
+    fill: #00FF00;
+}
+.st1-highlight {
+    fill: #00FF00;
+}
+.st0-highlight {
+    stroke: #00FF00;
+}
+
+.shake {
+  animation: shake 0.5s infinite;
+
+}
+
+.flip {
+     transform: scaleY(-1);
+}
+
+
+@keyframes shake {
+
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
   20% { transform: translate(-3px, 0px) rotate(1deg); }
@@ -83,7 +107,88 @@ img {
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
+
+/* Media queries */
+
+/* Mobiel exclusief volgorde is anders */
+@media (max-width: 40em) {
+    button {
+        visibility:hidden;
+    }
+    svg {
+        width:100vw;
+
+    }
+}
+
+ Tab/Medium
+@media (min-width: 40em) {
+
+    }
+}
+
+
+@media (min-width: 60em) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 60em) {
+
+.button {
+        display:none;
+    }
+
+/*
+    svg {
+        width:1em;
+        height:2em;
+    }
 */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body{
+    clip-path: ellipse(30% 50% at 25% 50%);
+    background-color:orange;
+}
+
+*/
+
 
 /*
 div:hover {
@@ -121,9 +226,7 @@ img:hover {
 }
 */
 
-.letter:hover {
-    fill:red;
-}
+
 
 /*
 #letters #a_1_:hover {
@@ -138,13 +241,13 @@ img:hover {
 */
 
 /*
+
 body {
     animation: colorchange  10s;
     animation-iteration-count: infinite;
 
 }
-*/
-/*
+
 @keyframes colorchange
     {
       0%   {background: red;}
@@ -154,3 +257,4 @@ body {
       100% {background: red;}
     }
 */
+

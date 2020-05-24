@@ -35,21 +35,24 @@ document.getElementById("float_button").addEventListener('click', float);
 document.getElementById("shake_button").addEventListener('click', shake);
 document.getElementById("flip_button").addEventListener('click', flip);
 
-document.getElementById("1_button").addEventListener('click', highlight_1);
-document.getElementById("2_button").addEventListener('click', highlight_2);
+document.getElementById("een_button").addEventListener('click', highlight_1);
+document.getElementById("twee_button").addEventListener('click', highlight_2);
 
 
 document.addEventListener('keypress', function(e) {
     console.log("key clicked: " + e.keyCode)
     switch (e.keyCode) {
-        case 49: random_dots(1); break;
-        case 50: random_dots(2); break;
-        case 51: random_dots(3); break;
-        case 52: random_dots(4); break;
+        case 55: random_dots(1); break;
+        case 56: random_dots(2); break;
+        case 57: random_dots(3); break;
+        case 58: random_dots(4); break;
         case 53: clear_dots(); break;
         case 54: background_change(); break;
-        case 55: highlight_1(); break;
-        case 56: highlight_2(); break;
+        case 49: highlight_1(); break;
+        case 50: highlight_2(); break;
+        case 51: highlight_3(); break;
+        case 52: highlight_4(); break;
+
     }
 });
 
@@ -210,13 +213,13 @@ function highlight_2() {
     highlight("streepje_18", "st1");
     highlight("streepje_20", "st1");
 
-    // highligh kromme
+    // highligh kromme streep
     highlight("streepje_1_", "st0");
     highlight("streepje_17_1_", "st0");
 }
 
 function highlight_3() {
-    var object = document.getElementById("bolletje_26_1_")
+    var object = document.getElementById("bolletje_15")
     if (object.getElementsByClassName("st2")[0].classList.contains("st2-highlight")) {
         clear_highlights();
         return
@@ -225,17 +228,28 @@ function highlight_3() {
     clear_highlights();
     clear_dots();
 
-    highlight("bolletje_26_1_", "st2");
-    highlight("bolletje_25_1_", "st2");
-    highlight("bolletje_24_1_", "st2");
-    highlight("bolletje_23", "st2");
-    highlight("bolletje_26", "st2");
+    // highlight dots
+    highlight("bolletje_15", "st2");
+    highlight("bolletje_14", "st2");
+    highlight("bolletje_13", "st2");
+    highlight("bolletje_12", "st2");
+    highlight("bolletje_11", "st2");
+    highlight("bolletje_10", "st2");
+    highlight("bolletje_9", "st2");
+    highlight("bolletje_8", "st2");
 
-    highlight("streepje_21", "st1");
-    highlight("streepje_22", "st1");
-    highlight("streepje_23", "st1");
-    highlight("streepje_23_1_", "st1");
-    highlight("streepje_25", "st1");
+    // highlight streepjes
+    highlight("streepje_15", "st1");
+    highlight("streepje_14", "st1");
+    highlight("streepje_13", "st1");
+    highlight("streepje_12", "st1");
+    highlight("streepje_11", "st1");
+    highlight("streepje_8",  "st1");
+
+    // highligh kromme streep
+    highlight("streepje_10", "st0");
+    highlight("streepje_9", "st0");
+
 }
 
 function highlight_4() {
@@ -248,17 +262,23 @@ function highlight_4() {
     clear_highlights();
     clear_dots();
 
-    highlight("bolletje_26_1_", "st2");
-    highlight("bolletje_25_1_", "st2");
-    highlight("bolletje_24_1_", "st2");
-    highlight("bolletje_23", "st2");
-    highlight("bolletje_26", "st2");
+    // highlight dots
+    highlight("bolletje_1", "st2");
+    highlight("bolletje_2", "st2");
+    highlight("bolletje_3", "st2");
+    highlight("bolletje_4", "st2");
+    highlight("bolletje_5", "st2");
+    highlight("bolletje_6", "st2");
+    highlight("bolletje_7", "st2");
 
-    highlight("streepje_21", "st1");
-    highlight("streepje_22", "st1");
-    highlight("streepje_23", "st1");
-    highlight("streepje_23_1_", "st1");
-    highlight("streepje_25", "st1");
+    // highlight streepjes
+    highlight("streepje_1", "st1");
+    highlight("streepje_2", "st1");
+    highlight("streepje_3", "st1");
+    highlight("streepje_4", "st1");
+    highlight("streepje_5", "st1");
+    highlight("streepje_6", "st1");
+    highlight("streepje_7", "st1");
 }
 
 

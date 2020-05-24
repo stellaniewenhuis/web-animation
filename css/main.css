@@ -11,12 +11,6 @@ svg {
     stroke-miterlimit: 10;
 }
 
-/*
-.st0 {
-    stroke: #2565B3;
-}
-*/
-
 /*dit  is de hover state van de kromme blauwe streepjes*/
 .st0:hover {
     stroke: #000000;
@@ -52,7 +46,6 @@ svg {
     100.0%  {background-color:red;}
 }
 
-
 .base {
     margin-left: 30px;
     margin-top: 5px;
@@ -78,6 +71,7 @@ svg {
     position:absolute;
     width:100vw;
     margin-top:-5em;
+    -webkit-animation: scaling 5s infinite;
 }
 
 
@@ -155,9 +149,11 @@ display:none;
 }
 
 
+/*
 div svg:hover {
   -webkit-animation: scaling 5s;
 }
+*/
 
 @-webkit-keyframes scaling {
 From {
@@ -172,11 +168,6 @@ From {
     }
 }
 
-#buttons {
-        display:block;
-        display:flex;
-        position:absolute;
-}
 .rotate {
     transform: rotate(-90deg);
 }
@@ -260,6 +251,12 @@ From {
 
     }
 
+    #buttons {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+
     p {
         display:none;
     }
@@ -274,8 +271,6 @@ From {
         margin-top:1em;
 
     }
-}
-
 }
 
 /*

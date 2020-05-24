@@ -34,6 +34,7 @@ document.getElementById("rotate_button").addEventListener('click', rotate);
 document.getElementById("float_button").addEventListener('click', float);
 document.getElementById("shake_button").addEventListener('click', shake);
 document.getElementById("flip_button").addEventListener('click', flip);
+document.getElementById("background_button").addEventListener('click', background_change);
 
 document.getElementById("een_button").addEventListener('click', highlight_1);
 document.getElementById("twee_button").addEventListener('click', highlight_2);
@@ -65,7 +66,7 @@ function clear_dots() {
 
 function background_change() {
     if (document.body.style.backgroundColor == "white") {
-        document.body.style.backgroundColor = "red";
+        document.body.style.backgroundColor = "black";
     }
     else {
         document.body.style.backgroundColor = "white";

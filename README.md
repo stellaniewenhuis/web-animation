@@ -46,7 +46,7 @@ Interacties:
 - Achtergrond donker maken door op de dark mode button te klikken. 
 
 ### Mobiele versie 
-<img width="452" alt="Schermafbeelding 2020-05-25 om 08 50 23" src="https://user-images.githubusercontent.com/45544342/82786474-f9051700-9e64-11ea-8c81-8e3b99314232.png">
+<img width="423" alt="Schermafbeelding 2020-05-25 om 09 09 29" src="https://user-images.githubusercontent.com/45544342/82787777-77fb4f00-9e67-11ea-8a8b-3fca39671e7b.png">
 
 Interacties: 
 Er zijn 2 verschillen ten opzichte van de desktop versie. 

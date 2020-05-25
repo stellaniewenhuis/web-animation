@@ -31,10 +31,17 @@ In de laatste week ben ik bezig geweest met het responive maken van mijn inetrac
 
 ### Het resultaat 
 
+<img width="1040" alt="Schermafbeelding 2020-05-25 om 08 34 25" src="https://user-images.githubusercontent.com/45544342/82785586-2f419700-9e63-11ea-9664-d12fb275c966.png">
 
+<img width="667" alt="Schermafbeelding 2020-05-25 om 08 34 38" src="https://user-images.githubusercontent.com/45544342/82785632-4b453880-9e63-11ea-985b-0a4798d8d1ec.png">
 
+<img width="792" alt="Schermafbeelding 2020-05-25 om 08 34 51" src="https://user-images.githubusercontent.com/45544342/82785654-5730fa80-9e63-11ea-88c4-05fd8cc791a1.png">
 
+<img width="995" alt="Schermafbeelding 2020-05-25 om 08 35 10" src="https://user-images.githubusercontent.com/45544342/82785683-631cbc80-9e63-11ea-89eb-ea65fd143f6f.png">
 
+<img width="1005" alt="Schermafbeelding 2020-05-25 om 08 35 35" src="https://user-images.githubusercontent.com/45544342/82785737-7c256d80-9e63-11ea-84bc-8e6791450e26.png">
+
+<img width="421" alt="Schermafbeelding 2020-05-25 om 08 42 57" src="https://user-images.githubusercontent.com/45544342/82785887-c0187280-9e63-11ea-8a2e-ec0f55f076c8.png">
 
 
 

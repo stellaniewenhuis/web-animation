@@ -44,18 +44,29 @@ Interacties:
 - Bij elke druk op toets 7, 3 random bolletje hightlighten (of op de 3 in het kunstwerk klikken)
 - Bij elke druk op toets 8, 4 random bolletje hightlighten (of op de 4 in het kunstwerk klikken)
 - Achtergrond donker maken door op de dark mode button te klikken. 
+- Hover over de tekst in het kunstwerk
+- Hover met regenboogkleuren animatie op de tekst onder de buttons. 
+- Hover over de bolletjes (kleur verandert). 
+- Hover over de streepjes en de kromme streepjes (kleur verandert). 
+- Klikken op de bolletjes (kleur verabdert). 
+
 
 ### Mobiele versie 
 <img width="423" alt="Schermafbeelding 2020-05-25 om 09 09 29" src="https://user-images.githubusercontent.com/45544342/82787777-77fb4f00-9e67-11ea-8a8b-3fca39671e7b.png">
 
 Interacties: 
 Er zijn 2 verschillen ten opzichte van de desktop versie. 
-- De rotatie is veranderd in flip. 
+- De rotatie is vervangen door flip. 
 - Het hightlighten van nummer 1,2, 3 en 4 gebeurt door op de buttons te klikken. 
 - Het hightlighten van de random bolletjes gaat door middel van het tappen op de cijfer 1,2 3 en 4 in het kunstwerk.
+- Door op de bolletjes te tappen, worden ze zwart.
 
 
+## Wat heb ik geleerd? 
 
+Sowieso heb ik alles weer goed ophaald wat betreft HTML CSS en Javascript. Het was een tijdje geleden! 
+Verder heb ik geleerd hoe je een svg in Illustrator kunt omzetten naar een svg code. In het begin vond ik de svg heel lastig om te begrijpen omdat de code zo lang is. Maar nu weet ik inmiddels hoe je lagen uit de svg kunt stijlen en aanspreken. Qua animaties ging er vooral een hele nieuwe wereld voor me open met de CSS keyframes. Die heb ik gebruikt in combinatie met de eventlisteners en toggles in Javascript. De keyevents waren ook helemaal nieuw voor mij. Dat elke toets een eigen soort code heeft wist ik helemaal niet! 
+ 
 
 
 

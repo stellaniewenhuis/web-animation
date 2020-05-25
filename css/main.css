@@ -1,9 +1,9 @@
-/*dit is mijn ingeladen svg vanuit illustrator*/
+/*stijl ingeladen svgr*/
 svg {
      width: 100vw;
 }
 
-/*dit zijn de kromme blauw streepjes */
+/*de kromme blauw streepjes */
 .st0 {
     fill: none;
     stroke: #2565B3;
@@ -11,12 +11,12 @@ svg {
     stroke-miterlimit: 10;
 }
 
-/*dit  is de hover state van de kromme blauwe streepjes*/
+/*de hover state van de kromme blauwe streepjes*/
 .st0:hover {
     stroke: #000000;
 }
 
-/*dit zijn de rechte blauwe streepjes*/
+/*de rechte blauwe streepjes*/
 .st1 {
     fill: #2565B3;
 }
@@ -31,19 +31,13 @@ svg {
     fill: #F04038;
 }
 
+.st2:hover {
+    fill: purple;
+}
+
 /*wanneer je het bolletjes aanklikt*/
 .clicked {
     fill: #000000;
-}
-
-.background {
-    animation:backgroundChange 5s ease-out
-}
-
-@keyframes backgroundChange {
-    0%     {background-color:red;}
-    50.0%  {background-color:#ff6666;}
-    100.0%  {background-color:red;}
 }
 
 .base {
@@ -52,6 +46,7 @@ svg {
 }
 
 /*dit is de float transitie*/
+/*https://codepen.io/whusterj/pres/bdYKop*/
 .float {
     animation-name: floating;
     animation-duration: 3s;
@@ -59,22 +54,24 @@ svg {
     animation-timing-function: ease-out;
 }
 
+/*animatie*/
 @keyframes floating {
     from { transform: translate(0,  0px); }
-    65%  { transform: translate(0, 20px); }
-    to   { transform: translate(0, -0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -2px); }
 }
 
+/*buttons*/
 #buttons {
     display:flex;
     justify-content: center;
     position:absolute;
     width:100vw;
     margin-top:-5em;
-    -webkit-animation: scaling 5s infinite;
 }
 
-
+/*p stijl*/
+/*https://www.w3schools.com/cssref/css_websafe_fonts.asp*/
 p {
     font-family:Verdana, Geneva, sans-serif;
     font-weight:100;
@@ -84,11 +81,8 @@ p {
     margin-top:-3em;
 }
 
-p:nth-of-type(2){
-    color:red;
-    margin-top:1em;
-}
-
+/*p hover met animatie*/
+/*https://stackoverflow.com/questions/24363205/css-background-color-keyframes-animation*/
 p:hover {
   animation: colorChange 2s linear 0s infinite;
 }
@@ -112,17 +106,17 @@ p:hover {
   }
 }
 
+/*Deze button moet alleen zichtbaar zijn op mobiel*/
 #flip_button {
     display:none;
 }
 
-
-#rotate_button,#float_button,#shake_button,#background_button:hover {
+/*buttons op desktop*/
+#rotate_button:hover, #float_button:hover,#shake_button:hover, #background_button:hover {
 background-color:rgb(240,64,56);
 }
 
-
-/*http://www.websonic.nl/tutorials/websitecss/css_rondehoeken.php*/
+/*bron ter inspiratie:http://www.websonic.nl/tutorials/websitecss/css_rondehoeken.php*/
 #rotate_button,#float_button,#shake_button,#flip_button,#background_button {
 border-radius: 250px;
 background-color:rgb(37,101,179);
@@ -131,16 +125,15 @@ text-align: center;
 border:none;
 margin-right:0.2em;
 text-align:center;
-padding:.5em;
 }
 
-#een_button,#twee_button,#drie_button,#vier_button {
+/*https://www.w3schools.com/howto/howto_css_circles.asp*/
+#een_button,#twee_button,#drie_button,#vier_button{
 border-radius: 250px;
 height: 2em;
 width: 2em;
 border-radius: 50%;
 background-color:rgb(240,64,56);
-padding:0.5em;
 color:white;
 border:none;
 margin-right:0.2em;
@@ -148,34 +141,21 @@ text-align:center;
 display:none;
 }
 
-
-/*
-div svg:hover {
-  -webkit-animation: scaling 5s;
-}
-*/
-
-@-webkit-keyframes scaling {
-From {
-    -webkit-transform: scale(1.0);
-}
-25% {
-    -webkit-transform: scale(1.1);
-    }
-    To  {
-      -webkit-transform: scale(1.0);
-
-    }
-}
+/*einde bron*/
 
 .rotate {
     transform: rotate(-90deg);
 }
 
-.letter:hover {
+#letters:hover {
     fill:red;
 }
 
+#cijfers:hover {
+    fill:red;
+}
+
+/*bron ter inspiratie: https://stackoverflow.com/questions/11660710/css-transition-fade-in*/
 .st2-highlight {
     fill: #00FF00;
     opacity: 1;
@@ -185,15 +165,16 @@ From {
     animation-duration: 2s;
 }
 
-/*https://stackoverflow.com/questions/11660710/css-transition-fade-in*/
+
 @keyframes fadeInOpacity {
     0% {
         opacity: 0;
     }
-    100% {
+    80% {
         opacity: 1;
     }
 }
+/*einde bron*/
 
 .st1-highlight {
     fill: #00FF00;
@@ -212,15 +193,11 @@ From {
     animation-duration: 2s;
 }
 
+/*https://www.w3schools.com/howto/howto_css_shake_image.asp*/
 .shake {
   animation: shake 0.5s infinite;
 
 }
-
-.flip {
-     transform: scaleY(-1);
-}
-
 
 @keyframes shake {
 
@@ -237,9 +214,35 @@ From {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+/*Einde bron*/
+/*bron: https://css-tricks.com/snippets/css/flip-an-image/*/
+.flip {
+     transform: scaleY(-1);
+}
+/*einde bron*/
 
 /* Media queries */
 /* Mobiel formaat - geholpen door Kim */
+@media(min-width: 79em) {
+#buttons {
+    -webkit-animation: scaling 5s infinite;
+    }
+    @-webkit-keyframes scaling {
+From {
+    -webkit-transform: scale(1.0);
+}
+25% {
+    -webkit-transform: scale(1.5);
+    }
+    To  {
+      -webkit-transform: scale(1.0);
+
+    }
+
+}
+}
+
+
 @media(min-width: 20em) and (max-width: 47em) {
   svg {
     width: 200vw;
@@ -248,75 +251,29 @@ From {
   }
     #rotate_button{
         display:none;
-
     }
 
     #buttons {
         text-align: center;
         align-items: center;
         align-content: center;
+        margin-top:-2em;
     }
 
     p {
         display:none;
     }
+
     #flip_button{
         display:block;
 
     }
-    #een_button,#twee_button,#drie_button,#vier_button{
+    #een_button,#twee_button,#drie_button,#vier_button,#vijf_button,#zes_button,#zeven_button,#acht_button{
         display:block;
-    }
-    #buttons {
-        margin-top:1em;
-
-    }
-}
-
-/*
-@media (max-width: 40em) {
-    button {
-        visibility:hidden;
-    }
-    svg {
-        width:100vw;
 
     }
 }
 
 
-/**/
-
-
-
-/*
-img {
-    height:2%;
-    width:2%;
-    margin-left:2em;
-    margin-top:2em;
-    flex-direction: row;
-}
-*/
-
-/*
-img:hover {
-
-}
-*/
-
-
-
-/*
-#letters #a_1_:hover {
-    fill:red;
-}
-#letters #u_1_:hover {
-    fill:red;
-}
-#letters #l:hover {
-    fill:red;
-}
-*/
 
 

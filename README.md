@@ -26,7 +26,7 @@ In week twee kon ik echt aan de slag gaan en had ik meer controle over mijn code
 De eerste ideeën die ik had waren echter wel ingewikkeld en daarvoor gebruikte ik Javascript en wat hulp van mijn broertje.  We hebben het samen uitgevogeld. Vervolgens ben ik CSS transities gaan toevoegen en de pagina meer gaan stijlen. 
 
 ### Afronding 
-In de laatste week ben ik bezig geweest met het responive maken van mijn inetractief design. Ook ben ik gaan nadenken over de verschillen tussen de desktop versie en de mobiele versie. 
+In de laatste week ben ik bezig geweest met het responive maken van mijn inetractief design. Dit heb ik gedaan met behulp van media queries. Ook heb ik de verschillen tussen de desktop en mobiele versie uitgewerkt.  
 
 
 ## Het resultaat 
@@ -34,29 +34,25 @@ In de laatste week ben ik bezig geweest met het responive maken van mijn inetrac
 ### Desktop versie 
 <img width="1040" alt="Schermafbeelding 2020-05-25 om 08 34 25" src="https://user-images.githubusercontent.com/45544342/82785586-2f419700-9e63-11ea-9664-d12fb275c966.png">
 
+Interacties: 
+- Rotatie van de svg door op de rotatie button te klikken
+- Het shake animatie van de svg door op de shake button te klikken.
+- Zweven van de svg door op de float button te klikken. 
+- Het highlighten van nummer 1, 2, 3 en 4 in de svg door op toets 1,2, 3 en 4 te klikken.  
+- Bij elke druk op toets 5, 1 random bolletje hightlighten (of op de 1 in het kunstwerk klikken)
+- Bij elke druk op toets 6, 2 random bolletje hightlighten (of op de 2 in het kunstwerk klikken)
+- Bij elke druk op toets 7, 3 random bolletje hightlighten (of op de 3 in het kunstwerk klikken)
+- Bij elke druk op toets 8, 4 random bolletje hightlighten (of op de 4 in het kunstwerk klikken)
+- Achtergrond donker maken door op de dark mode button te klikken. 
 
 ### Mobiele versie 
-<img width="421" alt="Schermafbeelding 2020-05-25 om 08 42 57" src="https://user-images.githubusercontent.com/45544342/82785887-c0187280-9e63-11ea-8a2e-ec0f55f076c8.png">
+<img width="452" alt="Schermafbeelding 2020-05-25 om 08 50 23" src="https://user-images.githubusercontent.com/45544342/82786474-f9051700-9e64-11ea-8c81-8e3b99314232.png">
 
-
-<img width="1005" alt="Schermafbeelding 2020-05-25 om 08 35 35" src="https://user-images.githubusercontent.com/45544342/82785737-7c256d80-9e63-11ea-84bc-8e6791450e26.png">
-
-<img width="421" alt="Schermafbeelding 2020-05-25 om 08 42 57" src="https://user-images.githubusercontent.com/45544342/82785887-c0187280-9e63-11ea-8a2e-ec0f55f076c8.png">
-
-<img width="667" alt="Schermafbeelding 2020-05-25 om 08 34 38" src="https://user-images.githubusercontent.com/45544342/82785632-4b453880-9e63-11ea-985b-0a4798d8d1ec.png">
-
-<img width="998" alt="Schermafbeelding 2020-05-25 om 08 44 23" src="https://user-images.githubusercontent.com/45544342/82786023-0d94df80-9e64-11ea-847a-6db08fcf10b1.png">
-
-<img width="543" alt="Schermafbeelding 2020-05-25 om 08 44 36" src="https://user-images.githubusercontent.com/45544342/82786045-1f768280-9e64-11ea-846e-8620c9cb9f38.png">
-
-<img width="306" alt="Schermafbeelding 2020-05-25 om 08 44 44" src="https://user-images.githubusercontent.com/45544342/82786089-37e69d00-9e64-11ea-8af1-346eebb2008e.png">
-
-<img width="531" alt="Schermafbeelding 2020-05-25 om 08 45 03" src="https://user-images.githubusercontent.com/45544342/82786116-4d5bc700-9e64-11ea-81d8-01d3bbeccd58.png">
-
-
-<img width="995" alt="Schermafbeelding 2020-05-25 om 08 35 10" src="https://user-images.githubusercontent.com/45544342/82785683-631cbc80-9e63-11ea-89eb-ea65fd143f6f.png">
-
-
+Interacties: 
+Er zijn 2 verschillen ten opzichte van de desktop versie. 
+- De rotatie is veranderd in flip. 
+- Het hightlighten van nummer 1,2, 3 en 4 gebeurt door op de buttons te klikken. 
+- Het hightlighten van de random bolletjes gaat door middel van het tappen op de cijfer 1,2 3 en 4 in het kunstwerk.
 
 
 
